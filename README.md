@@ -36,4 +36,4 @@ import visma_sign
 payload = {"document":{"name":"Java test"}}
 client = ApiClient()
 documentUuid = client.createDocument( json.dumps(payload) )
-```§
+```
